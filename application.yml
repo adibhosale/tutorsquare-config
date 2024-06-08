@@ -5,8 +5,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/tutorsquare
     username: postgres 
     password: aditya
- jpa:
-  database: POSTGRESQL
-  hibernate.ddl-auto: create-drop
-  show-sql: true
+  jpa:
+    database: POSTGRESQL
+    hibernate.ddl-auto: create-drop
+    show-sql: true
 
