@@ -1,2 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/micro
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
-    
